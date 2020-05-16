@@ -1,0 +1,10 @@
+How to Update Node.js to Latest Version
+
+sudo apt-get update
+sudo apt-get install build-essential checkinstall libssl-dev
+
+sudo apt install curl
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+
+nvm use nv12.0.0
